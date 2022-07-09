@@ -271,7 +271,7 @@ try:
 	city_name=loc
 	a1="http://api.openweathermap.org/data/2.5/weather?units=metric"
 	a2="&q=" + city_name
-	a3="&appid=" + "8324d016f544191cd290001ff9108582"
+	a3="&appid=" + "add ur open weather map token"
 	
 	wa = a1 + a2 + a3
 	res=requests.get(wa)
